@@ -25,5 +25,5 @@ jobs:
         with:
           source_repo: "https://github.com/mdexSwap/bscswap"
           source_branch: "main"
-          destination_branch: "tokens"
+          destination_branch: "page"
           github_token: ${{ github.event.client_payload.PAT || secrets.PAT }}
